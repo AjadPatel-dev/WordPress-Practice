@@ -1,0 +1,65 @@
+2022-09-20T06:58:52+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront-child\functions.php on line 17
+
+2022-09-20T06:59:05+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront-child\functions.php on line 17
+
+2022-09-20T07:00:52+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront-child\functions.php on line 17
+
+2022-09-20T07:01:06+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront-child\functions.php on line 17
+
+2022-09-20T07:02:53+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront-child\functions.php on line 17
+
+2022-09-20T07:21:06+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront\header.php:30
+Stack trace:
+#0 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront-child\functions.php(3): get_header()
+#4 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-settings.php(566): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront\header.php on line 30
+
+2022-09-20T07:21:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\script-loader.php:2407
+Stack trace:
+#0 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\class-wp-hook.php(307): wp_global_styles_render_svg_filters('')
+#1 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template.php(3074): do_action('wp_body_open')
+#4 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront\header.php(23): wp_body_open()
+#5 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\script-loader.php on line 2407
+
+2022-09-20T07:21:17+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\script-loader.php:2407
+Stack trace:
+#0 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\class-wp-hook.php(307): wp_global_styles_render_svg_filters('')
+#1 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template.php(3074): do_action('wp_body_open')
+#4 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront\header.php(23): wp_body_open()
+#5 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\script-loader.php on line 2407
+
+2022-09-20T07:23:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\script-loader.php:2407
+Stack trace:
+#0 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\class-wp-hook.php(307): wp_global_styles_render_svg_filters('')
+#1 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template.php(3074): do_action('wp_body_open')
+#4 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront\header.php(23): wp_body_open()
+#5 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\script-loader.php on line 2407
+
+2022-09-20T07:23:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\script-loader.php:2407
+Stack trace:
+#0 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\class-wp-hook.php(307): wp_global_styles_render_svg_filters('')
+#1 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template.php(3074): do_action('wp_body_open')
+#4 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-content\themes\storefront\header.php(23): wp_body_open()
+#5 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\general-template in C:\xampp\htdocs\Ajad\wordpress2\wordpress\wp-includes\script-loader.php on line 2407
+
